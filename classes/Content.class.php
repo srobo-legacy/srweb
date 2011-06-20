@@ -18,8 +18,8 @@ class Content {
 	private $meta = array();
 	private static $parsers = array();
 
-	public static function registerParser($type, $callback){
-		self::$parsers[$type] = $callback;
+	public static function registerParser($type, $callback, $cacheable){
+		self::$parsers[$type] = array("cacheable" => $cacheable, "cb" => $callback);
 	}
 
 	/*
@@ -141,9 +141,14 @@ class Content {
 			//if it's a type that need parsing
 			if (isset(self::$parsers[$upper_content])){
 
-				$callback = self::$parsers[$upper_content];
+				$callback = self::$parsers[$upper_content]["cb"];
 				$this->parsedContent = $callback($this->content);
-				$this->contentHasBeenParsed = true;
+				if (self::$parsers[$upper_content]["cacheable"]){
+					$this->contentHasBeenParsed = true;
+				} else {
+					// force non-cacheable content to always be parsed
+					$this->contentHasBeenParsed = false;
+				}//if-else
 
 			} else {
 
@@ -204,8 +209,8 @@ function _parser_php($rawData)
 	return $retval;
 }
 
-Content::registerParser('MARKDOWN', '_parser_markdown');
-Content::registerParser('MD', '_parser_markdown');
-Content::registerParser('PHP', '_parser_php');
+Content::registerParser('MARKDOWN', '_parser_markdown', true);
+Content::registerParser('MD', '_parser_markdown', true);
+Content::registerParser('PHP', '_parser_php', false);
 
 ?>
