@@ -63,13 +63,13 @@
 
 		<div id="topBanner">
 			<img src="{$root_uri}images/content/srobo_website_robot.png" alt="Image d'un Robot" />
-	
+
 			<h1>Bienvenue à Student Robotics</h1>
-	
-			<p>Student Robotics organise un concours de robotique excitant entre les équipes de 
-			lycéens, et les événements principaux se déroulent à l'Université de Southampton. 
+
+			<p>Student Robotics organise un concours de robotique excitant entre les équipes de
+			lycéens, et les événements principaux se déroulent à l'Université de Southampton.
 			Gérée par une équipe d'étudiants de l'Université de Southampton, les équipes de lycéens
-			doivent concevoir, construire et tester un robot qui est entièrement autonome, et prêt 
+			doivent concevoir, construire et tester un robot qui est entièrement autonome, et prêt
 			à concurrencer avec les autres équipes.</p>
 		</div>
 
@@ -79,7 +79,7 @@
 			<p>Grâce au projet ACE (accès aux études scientifiques et à l'égalité des chances), nous pouvons annoncer le démarrage de l'organisation Student Robotics en Grenoble.
 
 Une réunion de démarrage est prévue le Vendredi 19 Novembre, 12h, dans la salle B004, à <a href="http://ense3.grenoble-inp.fr/adminsite/photo.jsp?ID_PHOTO=1200389728770">ENSE3 Site Ampère</a>. C'est ouvert a tout le monde - quoi que soit votre filière, année ou niveau d'expérience.
-			<a href="{$root_uri}about/reunion_demarrage">En Savoir Plus</a> 
+			<a href="{$root_uri}about/reunion_demarrage">En Savoir Plus</a>
 </p>
 
 		</div>
@@ -165,7 +165,6 @@ Une réunion de démarrage est prévue le Vendredi 19 Novembre, 12h, dans la sal
 
 	</div>
 
-
 	{include file="footer-fr.tpl"}
 
 </div>
@@ -173,4 +172,3 @@ Une réunion de démarrage est prévue le Vendredi 19 Novembre, 12h, dans la sal
 </body>
 
 </html>
-
