@@ -51,6 +51,9 @@ $team_ids_lut = array(
 	24 => 'TTN',
 );
 
+// Also provide an inverted one for reverse lookups
+$team_ids_lut2 = array_combine(array_values($team_ids_lut), array_keys($team_ids_lut));
+
 foreach ($team_ids_lut as $nid => $tla) {
 	$college_info_name = '_'.substr($tla, 0, 3);
 	$college_info = $$college_info_name;

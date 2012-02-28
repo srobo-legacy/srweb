@@ -18,6 +18,34 @@ class LiveStatusItem extends StdClass
 	}
 }
 
+/**
+ * Returns the numeric team id from a canonical (TLA-0) one.
+ * Or FALSE on failure.
+ */
+function get_team_numeric_id($team_id) {
+	global $team_ids_lut2;
+	if (!array_key_exists($team_id, $team_ids_lut2)) {
+		return FALSE;
+	}
+	return $team_ids_lut2[$team_id];
+}
+
+/**
+ * Returns the canonical (TLA-0) team id from a numeric one.
+ * Or FALSE on failure.
+ */
+function get_team_canonical_id($team_id) {
+	global $team_ids_lut;
+	$nid = intval($team_id);
+	if ($nid == 0) {	// zero on failure, so no teams are actually 0.
+		return FALSE;
+	}
+	if (!in_array($nid, array_keys($team_ids_lut))) {
+		return FALSE;
+	}
+	return $team_ids_lut[$nid];
+}
+
 /*
  * Return array of team IDs. If $file_path is true then the array is
  * indexed by team ID with the value set to the path of the status file.
