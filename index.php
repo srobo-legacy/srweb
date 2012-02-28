@@ -116,6 +116,17 @@ if ($page == 'home'){
 	if ($pageInTeams) {
 
 		$team_id = substr($page, strrpos($page, '/')+1);
+
+		// check to see if we're not using a canonical (TLA) Id
+		if (($cid = get_team_canonical_id($team_id)) !== FALSE) {
+			//var_dump($cid);
+			header('HTTP/1.1 302 Found');
+			header('Location: ' . ROOT_URI . 'teams/' . $cid );
+			exit();
+		}
+
+		$team_id = get_team_numeric_id($team_id);
+
 		$team = get_team_info($team_id);
 		$smarty->assign('team', $team);
 
@@ -310,6 +321,7 @@ function getAllowedPages($directory) {
  */
 function getAllowedTeams() {
 	$teams = get_team_list();
+	$teams = array_merge($teams, array_map('get_team_canonical_id', $teams));
 	$teams = array_map(function($t) {
 	                   return 'teams/'.$t;
 	                   },

@@ -111,7 +111,7 @@ function _build_team_info($path, $team_id) {
 	foreach (array('url', 'feed', 'description') as $item) {
 		$team->$item = empty($team_raw->$item->live) ? null : new LiveStatusItem(strip_tags($team_raw->$item->live));
 	}
-	$team->team_id = $team_id;
+	$team->team_id = get_team_canonical_id($team_id);
 
 	global $team_info_college_lut;
 	$team->college = array_key_exists($team_id, $team_info_college_lut) ? $team_info_college_lut[$team_id] : null;
