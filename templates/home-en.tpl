@@ -125,11 +125,11 @@
 							<ul>
 								<li><a href="{$root_uri}events/sr2012/tech_day_03_12">3rd December</a></li>
 								<li><a href="{$root_uri}events/sr2012/2012-02-04-soton_tech_day_2">4th February</a></li>
-								<li>17th March</li>
+								<li><a href="{$root_uri}events/sr2012/2012-03-17-soton_tech_day_3">17th March</a></li>
 							</ul>
 						</div>
 						<div id="date_bristol">
-							Tech Days:
+							<a href="{$root_uri}schools/tech_days">Tech Days:</a>
 							<ul>
 								<li><a href="{$root_uri}events/sr2012/2012-02-11-bristol_tech_day">11th February</a></li>
 								<li><a href="{$root_uri}events/sr2012/2012-03-10-bristol_tech_day_2">10th March</a></li>
@@ -137,9 +137,9 @@
 						</div>
 					</div>
 					<div>
-						Competition:
+						<a href="{$root_uri}schools/competition">Competition:</a>
 						<ul>
-							<li>14th &amp; 15th April</li>
+							<li><a href="{$root_uri}events/sr2012/2012-04-14-competition">14th &amp; 15th April</a></li>
 						</ul>
 					</div>
 
