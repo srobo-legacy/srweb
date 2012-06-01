@@ -51,6 +51,7 @@ foreach($orderedLanguages as $l){
 
 /* Some smarty variables that are accessible to all templates */
 $smarty->assign('live_site', LIVE_SITE);
+$smarty->assign('track_user', shouldTrackUser());
 
 /*
  * Some pages need to be treated differently (they use a different template, for
@@ -197,6 +198,18 @@ if ($page == 'home'){
  *                         FUNCTIONS
  * ===========================================================
  */
+
+/**
+ * Returns whether or not user tracking should be enabled.
+ * This is turned off if:
+ *  * not the live site, or
+ *  * the user has requested not to be tracked.
+ */
+function shouldTrackUser()
+{
+	$headers = getallheaders();
+	return LIVE_SITE && empty($headers['DNT']);
+}
 
 /*
  * Returns an ordered array (most prefered first) of languages

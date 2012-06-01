@@ -1,5 +1,5 @@
 
-	{if $live_site}
+	{if $track_user}
 	{literal}
 
 	<script type="text/javascript">
