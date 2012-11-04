@@ -89,8 +89,12 @@
 						</div>
 						<div id="date_bristol">
 							<a href="{$root_uri}schools/tech_days">Tech Days:</a>
-							<p><i>To be announced.</i></p>
-						</div>
+                            <ul>
+                                <li><a href="{$root_uri}events/2012-12-01-bristol_tech_day_1">1<sup>st</sup> December</a></li>
+                                <li><a href="{$root_uri}events/2013-02-02-bristol_tech_day_2">1<sup>st</sup> December</a></li>
+                                <li><a href="{$root_uri}events/2013-03-02-bristol_tech_day_3">1<sup>st</sup> December</a></li>
+                            </ul>
+                        </div>
 					</div>
 					<div>
 						<a href="{$root_uri}schools/kickstart">Kickstart:</a>
