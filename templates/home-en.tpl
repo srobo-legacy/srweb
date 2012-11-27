@@ -24,11 +24,11 @@
 	</script>
 	{/literal}
 
-	{include file=tracking.tpl}
+	{include file="tracking.tpl"}
 </head>
 
 <body>
-{include file=tracking-image.tpl}
+{include file="tracking-image.tpl"}
 <div id="pageWrapper">
 
 	{include file="header-en.tpl"}
