@@ -403,3 +403,9 @@ div#footer span.copyright {
 	text-align:center;
 	text-shadow:1px 1px 1px #fff;
 }
+
+.uni-logo {
+	width:86%;
+	background-color:#fff;
+	padding:7%!important;
+}
