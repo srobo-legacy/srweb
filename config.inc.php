@@ -66,30 +66,29 @@ default_define('MEMCACHE_PORT',		11211);
  */
 $MENU_PAGES = array(
 //	TITLE/NAME		=>  PATH
-//     =====================================================
+//	=====================================================
 	'Home' 			=> 'home',
 
-	'Schools &amp; Colleges'=> 'schools/',
-	'Competing Teams'=> 'teams/',
-	'Competition'		=> 'schools/competition',
-	'Joining'		=> 'schools/joining',
-	'Documentation'		=> 'schools/docs/',
-	'Forum'			=> 'forum/',
+	'News'			=> 'news/',
+
+	'Key Dates'     => 'key_dates',
+
+	'About the Competition'=> 'schools/',
+	'The Game'		=> 'schools/game',
+	'Support'       => 'schools/support',
+	'How to Enter'  => 'schools/how_to_enter',
 	'Kit'			=> 'schools/kit/',
-	'Team Leaders'          => 'schools/team-leaders/',
-
-	'Docs'			=> 'docs/',
-
-	'Sponsors'		=> 'sponsors/',
+	'Team Leaders'  => 'schools/team-leaders/',
+	'Tech Days'     => 'schools/tech_days',
+	'KickStart'     => 'schools/kickstart',
+	'Competing Teams'=> 'teams/',
 
 	'About Us'		=> 'about/',
-	'The Team'		=> 'about/team',
-	'Media'			=> 'about/media',
+	'Sponsors'		=> 'about/sponsors',
+	'The Committee' => 'about/committee',
+	'How to Help'   => 'about/how_to_help',
 	'Mission Statement'	=> 'about/mission',
-	'Public Documents'	=> 'about/publicdocs',
-	'Contact Us'		=> 'about/contactus',
-
-	'News'			=> 'news/'
+	'Contact Us'		=> 'about/contactus'
 );
 
 
