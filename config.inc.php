@@ -71,7 +71,6 @@ $MENU_PAGES = array(
 
 	'Schools &amp; Colleges'=> 'schools/',
 	'Competing Teams'=> 'teams/',
-	'Joining'		=> 'schools/joining',
 	'Documentation'		=> 'schools/docs/',
 	'Forum'			=> 'forum/',
 	'Kit'			=> 'schools/kit/',
@@ -81,6 +80,7 @@ $MENU_PAGES = array(
 	'Key Dates'     => 'key_dates',
 
 	'The Game'		=> 'schools/game',
+	'How to Enter'  => 'schools/how_to_enter',
 
 	'About Us'		=> 'about/',
 	'Sponsors'		=> 'about/sponsors',
