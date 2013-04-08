@@ -1,0 +1,8 @@
+//TITLE:	Python Docs
+//DESCRIPTION:	Information about the Python Documentation
+//KEYWORDS:
+//CONTENT_TYPE:	markdown
+
+The main python documentation is at [http://docs.python.org](http://docs.python.org),
+but we also have a clone of the version 2.6.5 docs [locally](/docs/python/)
+(this the version of python that's on the BeagleBoards).
