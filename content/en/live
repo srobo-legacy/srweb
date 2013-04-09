@@ -1,0 +1,26 @@
+//TITLE: Competition Live
+//DESCRIPTION: Live details from the 2013 Student Robotics competition.
+//KEYWORDS:
+//CONTENT_TYPE: md
+
+# Live competition feed
+
+The Student Robotics 2013 [competition](/events/sr2013/2013-04-13-competition) is underway.
+
+<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/search?q=%23srobo"  data-widget-id="321714107403354112">Tweets about "#srobo"</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<object
+    class="video"
+    type="application/x-shockwave-flash"
+    data="http://www.justin.tv/widgets/live_embed_player.swf?channel=cmalton"
+    id="live_embed_player_flash"
+    height="400"
+    width="300"
+    bgcolor="#000000">
+        <param name="allowFullScreen" value="true"/>
+        <param name="allowScriptAccess" value="always" />
+        <param name="allowNetworking" value="all" />
+        <param name="movie" value="http://www.justin.tv/widgets/live_embed_player.swf" />
+        <param name="flashvars" value="hostname=www.justin.tv&channel=cmalton&auto_play=true&start_volume=25" />
+</object>
