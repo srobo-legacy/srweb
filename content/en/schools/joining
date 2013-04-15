@@ -31,12 +31,12 @@ if (ENABLE_SIGNUP) {
 	but note that the presence of a responsible adult team-leader is required.
 </p>
 
-<h2>Subscribe to SR2013</h2>
+<h2>Subscribe to SR2014</h2>
 
 <?php
 if (ENABLE_SIGNUP) {
 	if ($form->bound && $form->is_valid()) {
-		echo "<p>Thanks for subscribing to SR2013, we will contact you shortly to confirm your place.</p>";
+		echo "<p>Thanks for subscribing to SR2014, we will contact you shortly to confirm your place.</p>";
 	} else {
 		echo "<p>This year there is sufficient space for 36 teams.  To confirm a place, as either a new or returning team, please fill in the form below.</p>";
 
@@ -54,6 +54,6 @@ if (ENABLE_SIGNUP) {
 		echo $form->close();
 	}
 } else {
-	echo '<p>SR2013 is now fully subscribed and <a href="/news/2012-11-05_sr2013_underway">underway</a>. Watch this space for joining details for SR2014.</p>';
+	echo '<p>SR2013 is now <a href="/news/2013-04-14_jaws_met_floors">complete</a>. Watch this space for joining details for SR2014.</p>';
 }
 ?>
