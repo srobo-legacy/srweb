@@ -419,6 +419,20 @@ div#footer span.rss {
 	position:absolute;
 	right:10px;
 }
+div#footer span.youtube {
+	position:absolute;
+	right:40px;
+}
+
+div#footer span.twitter {
+	position:absolute;
+	right:99px;
+}
+
+div#footer span.facebook {
+	position:absolute;
+	right:124px;
+}
 
 div#footer span.copyright {
 	display:block;
