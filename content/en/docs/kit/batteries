@@ -8,6 +8,11 @@ Batteries and Charging
 
 The electronics kit contains two 11.1V 2.2Ah lithium-ion polymer batteries and a battery charger. Lithium-ion polymer (LiPo) batteries, similar to those used in laptops, are small and light for the amount of energy they contain. This is great for your robot but it is vital to treat such a high concentration of energy with respect. The battery charger controls the electrical current passed through the batteries to ensure they are charged safely.
 
+There are two different chargers in use by Student Robotics, of which your kit will contain one:
+
+1.  The [iMAX B6](/docs/kit/batteries#B6);
+2.  The [HobbyKing HKE4](/docs/kit/batteries#HKE4).
+
 <div class="warning">
 <p>
 LiPo batteries can get hot or catch fire when charging and in use.
@@ -25,8 +30,8 @@ LiPo batteries can get hot or catch fire when charging and in use.
 -------------------
 Each battery should only ever be connected to either the supplied charger or the power board.  These batteries **must never** be discharged below 9V, or they will be irreparably damaged.  The power board will start beeping when the battery voltage nears this point.  So when it starts beeping, turn the power board off immediately and switch to using your other battery, which you should have already charged.
 
-iMAX B6 Chargers
-================
+[iMAX B6 Chargers](/docs/kit/batteries#B6) {#B6}
+==================
 
 <img src="/images/content/kit/imaxb6.jpg" alt="A photo of the iMAX B6 battery charger." title="An imax B6 battery charger" />
 
@@ -114,8 +119,8 @@ Charger beeps and displays `CONNECTION BREAK` during charging
 
 	`Batt.Type/Stop` &rarr; `Start/Enter` for 3 seconds &rarr; `Start/Enter`
 
-HobbyKing HKE4 Chargers
-=======================
+[HobbyKing HKE4 Chargers](/docs/kit/batteries/#HKE4) {#HKE4}
+=========================
 
 Some kits will contain new black HobbyKing HKE4 chargers.
 
