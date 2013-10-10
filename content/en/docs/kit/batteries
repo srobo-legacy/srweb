@@ -34,6 +34,7 @@ Each battery should only ever be connected to either the supplied charger or the
 [Storing the Batteries](/docs/kit/batteries#StoringTheBatteries) {#StoringTheBatteries}
 -------------------
 The batteries should always be stored in a charged state, in the battery bag provided.
+This is because the batteries will slowly lose their charge over time, and (as noted above) if they discharge below 9V they will be irreparably damaged.
 
 [iMAX B6 Chargers](/docs/kit/batteries#B6) {#B6}
 ==================
