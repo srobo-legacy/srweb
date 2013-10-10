@@ -26,7 +26,7 @@ LiPo batteries can get hot or catch fire when charging and in use.
 </ul>
 </div>
 
-[Using the Battery](/docs/kit/batteries#UsingTheBattery) {#UsingTheBattery}
+[Using the Batteries](/docs/kit/batteries#UsingTheBatteries) {#UsingTheBatteries}
 -------------------
 Each battery should only ever be connected to either the supplied charger or the power board.  These batteries **must never** be discharged below 9V, or they will be irreparably damaged.  The power board will start beeping when the battery voltage nears this point.  So when it starts beeping, turn the power board off immediately and switch to using your other battery, which you should have already charged.
 
