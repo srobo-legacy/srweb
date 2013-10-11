@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /~chris/srweb
+RewriteBase /srweb2
 
 RewriteCond %{REQUEST_FILENAME}	!-f
 RewriteCond %{REQUEST_URI} 	!^(/community-guidelines(.*))$
@@ -24,3 +24,4 @@ RewriteCond %{REQUEST_URI}	!(resources/2013/markers(.*))$
 
 RewriteRule ^(.+)$ 	index.php?page=$1	[L,QSA]
 Redirect /comp https://www.studentrobotics.org/events/sr2013/2013-04-13-competition
+Redirect /microgames https://www.studentrobotics.org/resources/2014/SRKickstartTasks.pdf
