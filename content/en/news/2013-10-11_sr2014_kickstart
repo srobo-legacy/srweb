@@ -1,0 +1,52 @@
+//TITLE: It's that time of year again. The Student Robotics Competition Kickstart!
+//DESCRIPTION: A record 54 teams helped KickStart Student Robotics 2014 off, over 4 venues
+//PUB_DATE: 2013-11-05 21:00:00
+//KEYWORDS: student, robotics, kickstart, teams, 2014
+//CONTENT_TYPE: md
+
+It's that time of year again. The Student Robotics Competition Kickstart!
+=========================================================================
+
+
+Thanks to a record fifty-four teams of sixth form students from across Europe competing in this year's competition,
+ and the ever relentless work of the Blueshirts, this year's Kickstart was bigger and better than ever before.
+On Saturday 12th October teams gathered in the Universities of Bristol and Southampton
+ along with Gresham's School in north Norfolk for a day of hacking, with Munich soon to follow.
+
+TODO: (Photo of team map)
+
+This year Kickstart has been overhauled in order to improve the quality of service that we can deliver to teams.
+The initial talks included a video introduction to the core concepts and kit,
+ followed by Blueshirts at each location explaining the game to the teams and taking questions from students eager to probe for loopholes.
+
+TODO: (Video)
+
+The rest of the day was spent hacking away at various tasks,
+ to educate & familiarise students with the kit, the IDE,
+ and the [Python](http://www.python.org) programming language.
+This way, every team, experienced or not, can get some hands on,
+ Blueshirt assisted training, which helps to level the playing field between rookie and veteran teams.
+
+TODO: (pic of stuff happening-Ultimation)
+
+This year's game, Slots, challenges teams to collect 200mm boxes from the arena,
+ rotate them and place them into central zones, with bonuses for placing them in the eponymous slots.
+Five ways to score, four robots, three minutes.
+Full details are available in the [rules](/docs/rules).
+
+TODO: (Pic of game)
+
+After the initial talks, teams were tasked with the "Micro games"
+ designed to guide teams through all the complex aspects of building a robot.
+From humble beginnings of blinking an LED, to assembling the kit in all its glory,
+ all the way through to charging batteries and recognising tokens.
+Teams worked at their own pace, supported as ever by enthusiastic Blueshirts,
+ and left ready to go forth and build.
+
+In the next couple of weeks we will be providing all students and teachers
+ with their very own [user accounts](/docs/user_accounts), activating the [forums](/forum),
+ and sending out mentors, but until then, get busy hacking!
+
+And don't forget to comment your code.
+
+AND don't forget to **read the [docs](/docs/)**.
