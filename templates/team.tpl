@@ -77,9 +77,10 @@
 		<div class="clearboth"><a class="link-bottom-left" href="{$root_uri}teams">Back to all teams</a></div>
 
 	</div>
-	<div id="original"></div>
-
-	{include file=$footer_file}
+	<div id="original">
+		The content and links on this page reflect the view of the team that it is about,
+		and may not reflect those of Student Robotics.
+	</div>
 
 </div>
 </body>
