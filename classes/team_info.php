@@ -68,7 +68,11 @@ function _build_team_info($path, $team_id) {
 	_set_team_image($team_raw, $team, $team_id);
 	$team->team_name = empty($team_raw->name->live) ? "Team $team_id" : new LiveStatusItem(strip_tags($team_raw->name->live));
 	foreach (array('url', 'feed', 'description', 'facebook', 'youtube', 'twitter') as $item) {
-		$team->$item = empty($team_raw->$item->live) ? null : new LiveStatusItem(strip_tags($team_raw->$item->live));
+		if (empty($team_raw->$item->live)) {
+			$team->$item = null;
+		} else {
+			$team->$item = new LiveStatusItem(strip_tags($team_raw->$item->live));
+		}
 	}
 	$team->team_id = $team_id;
 
