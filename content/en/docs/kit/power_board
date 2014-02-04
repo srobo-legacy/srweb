@@ -59,7 +59,7 @@ All dimensions are in mm. Don't forget that the CAT5 cables stick out slightly a
 
 Note that the case for the SR13.F board revision is 115mm wide, not 113mm wide.
 
-Specification
+[Specification](#Specification) {#Specification}
 -------------
 
 |  Parameter                           |   Value   |
@@ -85,6 +85,6 @@ You do not need this information to use the board but it may be of interest to s
  * [Hardware Designs](https://www.studentrobotics.org/cgit/boards/power-hw.git/)
  * [BeagleBoard](http://beagleboard.org/) - We use the revision C4 board
  * [BeagleBoard OS](https://www.studentrobotics.org/cgit/sr-oe.git/) - Ångström with some custom SR configuration
- * [Vision Software](https://www.studentrobotics.org/cgit/robovis.git/)
+ * [Vision Software](https://www.studentrobotics.org/cgit/libkoki.git/)
  * [Python Environment](https://www.studentrobotics.org/cgit/pyenv.git/)
  * [GUI](https://www.studentrobotics.org/cgit/kit-gui.git/)

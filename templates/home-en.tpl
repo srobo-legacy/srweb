@@ -91,6 +91,8 @@
 							<a href="{$root_uri}events/tech_days">Tech Days</a>:
                             <ul>
                                 <li><a href="{$root_uri}events/sr2014/2013-11-30-soton_tech_day_1">30<sup>th</sup> November</a></li>
+                                <li><a href="{$root_uri}events/sr2014/2014-02-15-soton_tech_day_2">15<sup>th</sup> February</a></li>
+                                <li><a href="{$root_uri}events/sr2014/2014-03-15-soton_tech_day_3">15<sup>th</sup> March</a></li>
                             </ul>
 
                             <a href="{$root_uri}events/kickstart">Kickstart:</a>
@@ -103,6 +105,8 @@
                             <ul>
 
                                 <li><a href="{$root_uri}events/sr2014/2013-11-30-bristol_tech_day_1">30<sup>th</sup> November</a></li>
+                                <li><a href="{$root_uri}events/sr2014/2014-02-08-bristol_tech_day_2">8<sup>th</sup> February</a></li>
+                                <li><a href="{$root_uri}events/sr2014/2014-03-08-bristol_tech_day_3">8<sup>th</sup> March</a></li>
                             </ul>
 
                             <a href="{$root_uri}events/kickstart">Kickstart:</a>
@@ -144,9 +148,9 @@
 					</div>
 					<div>
 						<a href="{$root_uri}events/competition">Competition:</a>
-                        <ul>
-                            <li><i>To be announced</i></li>
-                        </ul>
+						<ul>
+							<li><a href="{$root_uri}events/sr2014/2014-04-26-competition">26<sup>th</sup> and 27<sup>th</sup> April 2014</a></li>
+						</ul>
 					</div>
 
 				</div>
