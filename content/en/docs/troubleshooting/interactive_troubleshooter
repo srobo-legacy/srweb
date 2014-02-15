@@ -1,0 +1,13 @@
+//TITLE: Interactive Troubleshooter
+//DESCRIPTION: Helps you troubleshoot your code
+//KEYWORDS:	troubleshooting, faq, problems, help, hardware, kit
+//CONTENT_TYPE: markdown
+
+# Interactive Troubleshooter
+
+<link href="/resources/troubleshooter/styles.css" type="text/css" rel="stylesheet" />
+
+<div id="troubleshooter"></div>
+<button id="resetbtnattop">Troubleshoot another issue</button>
+
+<script src="/resources/troubleshooter/main.js"></script>

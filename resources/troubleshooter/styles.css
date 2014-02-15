@@ -1,0 +1,39 @@
+#resetbtnattop {
+    margin: 10px;
+    background: #dddddd;
+    border: 2px #bbbbbb outset;
+    padding: 3px;
+}
+
+#resetbtnattop:active {
+    border-style: inset;
+}
+
+p.message {
+    font-style: italic !important;
+    margin-left: 40px !important;
+}
+
+img {
+    margin-top: 10px;
+}
+
+.question {
+    padding: 10px;
+    margin-bottom: 2px;
+}
+
+.question label {
+    padding: 4px 8px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.question label > * {
+    vertical-align: middle !important;
+}
+
+.question label > input[type=radio] {
+    margin-right: 10px;
+}
