@@ -10,3 +10,6 @@
 [submodule "tickets"]
 	path = tickets
 	url = ../ticket-access.git
+[submodule "mediaconsent"]
+	path = mediaconsent
+	url = git://git.srobo.org/media-consent-access.git
