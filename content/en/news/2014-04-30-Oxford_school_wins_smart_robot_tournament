@@ -1,0 +1,94 @@
+//TITLE: Oxford school wins smart robot tournament
+//DESCRIPTION: Over 230 games in two days whittled 54 entered teams, including the widest selection of robots we've ever seen, down to a single winner.
+//KEYWORDS: student, smart, autonomous, robotics, final, competition, league, knockout, winners, prizes, awards
+//PUB_DATE: 2014-04-30 19:00:00 GMT+01:00
+//CONTENT_TYPE: markdown
+
+Oxford school wins smart robot tournament
+=========================================
+
+Headington School in Oxford came top of the class in a high-tech European robotics tournament held this weekend at Newbury Racecourse.
+The team of 6th form girls beat 53 other school teams from the UK, France and Germany with a self-driving robot that used a camera to find prize tokens.
+
+//Quote from Matt & ideally one of the girls
+
+//Quote from industry/academia
+
+For more information, please contact Andrew Cottrell via <acottrell@studentrobotics.com>
+
+About Student Robotics
+----------------------
+Student Robotics, a school robotics tournament run by students at Southampton and Bristol University,
+ has grown over the past 6 years to be the UK's leading competition.
+Teams of 6th formers have 6 months to design, build and program a robot to take part in the annual competition.
+
+Student Robotics 2014 was the biggest and best yet, with over 230 rounds played over 2 days.
+Four robots compete head to head in each round, pushing past each other to grab as many tokens as possible in 3 minutes.
+Run entirely by volunteers, Student Robotics is free for teams to enter thanks to sponsorship from the Motorola Foundation.
+
+
+The challenge: *Slots*
+----------------------
+Given only the brain and eyes of the robot,
+ the teams must work out how to make their robot move around the arena
+ (this year saw the competition's first walking robot),
+ how it will pick up the prize tokens as well as how to build it.
+This year's game presented a variety of point scoring opportunities,
+ including moving the prize tokens to certain places and turning them the right way up.
+
+Prizes
+------
+
+Student Robotics try to recognise not only the robots which make it all the way to the final,
+ but also encourages those teams which excel in other areas.
+To that end, there are a variety of other prizes awarded each year.
+
+The *First Robot Movement* and *Rookie Award* prizes are reserved for teams new to the competition.
+The *Rookie Award* is given to the rookie team which places highest in the league stage of the competition.
+
+The first new team to post a video of their robot moving on its own in a controlled manner win the *First Robot Movement* award.
+This encourages new teams to get a basic chassis built quickly, as well as getting them to write some simple control software for it.
+
+//TODO: Maybe link to TBG's video?
+
+The *Committee Award* is given to the team which finds a simple and elegant solution to a problem.
+This was demonstrated brilliantly by MAI,
+ whose robot used a suction grabber to roll the tokens towards it in order to turn them over as well as easily carry them.
+
+The *Online Presence* prize is given to the team judged to have the best combination of website, blog and other online activities.
+
+The *Robot and Team Image* prize is given to the team which present their robot and themselves in the most outstanding way.
+Systemetric (HRS) impressed the judges with their steampunk? victorian? costumes and brass and mahogany robot.
+
+
+|        Prize                 |            Team
+|------------------------------|-----------------------------------------------
+| 1st Place                    | Headington School, Oxford (HSO)
+| 2nd Place                    | Gordano School (GRD)
+| 3rd Place (Tie<sup>†</sup>) | "Team Ninja Bot", Clifton High School (CLF) and <br /> "Colossal Denominators", Runshaw College (RUN)
+| Rookie Award                 | Torquay Boys Grammar School (TBG)
+| Committee Award              | "MAI Senior", Gymnasium Markt Indersdorf (MAI)
+| Robot and Team Image         | "Systemetric", Hills Road Sixth Form College (HRS)
+| First Robot Movement         | Torquay Boys Grammar School (TBG)
+| Online Presence              | "[The Astromechs](https://theastromechs.squarespace.com/)", Peter Symonds College (PSC)
+
+<sup>†</sup> Due to an error in the handling of the scores in the final match, this was unfortunately announced incorrectly as only CLF on the day.
+
+For full details on the awards, please see the [rulebook](/resources/2014/rulebook.pdf).
+
+// TODO: somewhere mention the hexapod robot
+
+// TODO: also update the joining page if we link to it -- it currently has a warning about SR2014 being full
+
+If you didn't take part but your appetite's been whetted,
+ or you want to enter again next year,
+ the [sign up page](/schools/how_to_enter) for next year's competition will be up in a couple of weeks.
+Get forming your teams and talking to your teachers now!
+
+Media
+-----
+
+Photos can be found on the Student Robotics 2014 Competition [Flickr group](http://www.flickr.com/groups/sr2014/).
+
+_The SR Team_
+
