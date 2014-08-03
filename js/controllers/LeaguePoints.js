@@ -6,7 +6,7 @@ app.controller("LeaguePoints", function($scope, LeagueScores, Teams) {
     var updateState = function() {
         LeagueScores.get(function(points) {
             $scope.league_points = league_sorter(points.league_points, null, points.game_points);
-            $scope.game_points = gamepoints_sorter(points.game_points);
+            $scope.game_points = points.game_points;
             $scope.latest_match = points.last_scored;
         });
         Teams.get(function(teams) {
