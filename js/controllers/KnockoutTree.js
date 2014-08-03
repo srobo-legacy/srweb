@@ -1,10 +1,15 @@
 
 var app = angular.module('app', ["competitionFilters", "competitionResources"]);
 
-app.controller("KnockoutTree", function($scope, Arenas, KnockoutMatches, LeagueScores, MatchesFactory, State, Teams) {
+app.controller("KnockoutTree", function($scope, Arenas, Corners, KnockoutMatches, LeagueScores, MatchesFactory, State, Teams) {
 
     $scope.unknowable = UNKNOWABLE_TEAM;
     var KNOCKOUT_TYPE = "knockout";
+
+    $scope.corners = [];
+    Corners.load(function(cornerId, corner) {
+        $scope.corners[cornerId] = corner;
+    });
 
     Teams.follow(function(teams) {
         $scope.teams = teams;
