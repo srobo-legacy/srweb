@@ -1,0 +1,52 @@
+//TITLE:        Student Robotics 2015 away with new kit
+//DESCRIPTION:  Student Robotics 2015 is underway with a new range of exciting kit and a new game
+//KEYWORDS:     student, smart, autonomous, robotics, kickstart, competition, teams, start, banana
+//PUB_DATE:     2014-10-25 19:00:00 GMT+01:00
+//CONTENT_TYPE: markdown
+
+
+Student Robotics 2015 underway with new kit
+===========================================
+
+The 2015 Student Robotics competition has started with various [Kickstart](/events/kickstart) events. Three Kickstarts were held at the University of Southampton, the University of Bristol and Facebook HQ in London. There is also a Kickstart event occuring in Munich slightly later in the year.  
+
+There will be 54 teams competing in this years Student Robotics competition, situated from across the United Kingdom and Germany. 
+*Insert map on the right*
+
+The game: *Insert details of the game at a later date*
+---------------------------------
+
+*Put some diagrams from the rulebook in here*
+For full details please reference the [rulebook](/resources/2015/rulebook.pdf).
+
+Kit upgrades
+------------
+Student Robotics volunteers have worked hard producing a new range of kit for Student Robotics 2015. 
+These upgrades include:
+
+### New power board
+
+![A new power board](image link)
+
+### Brain board
+
+![Odroid U3 brain board](image link)
+
+The new Brain Board is the [Odroid U3](http://hardkernel.com/main/products/prdt_info.php). 
+It's a small but powerful Linux computer with a 1.7GHz Quad Core ARM processor and packs 2GB of RAM.
+These boards are similar, but are often reported as being between 6 and 12 times more powerful than the Raspberry Pi.
+
+### Tablets
+
+![Control tablet](image link)
+
+### New servo board
+
+![A new servo board](image link)
+
+
+The new inter-board communication system has been upgraded from SRIC to USB. This makes communication faster, wiring easier, and the kit more robust.
+
+
+This years competition should be an exhilarating event, and all of the Student Robotics volunteers are looking forward to seeing how well the robots compete!  
+_The Student Robotics team_
