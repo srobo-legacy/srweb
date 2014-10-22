@@ -460,7 +460,7 @@
                 },
                 {
                     "answer": "No",
-                    "message": "Connect the Servo up to the <a href=\"ROOT_URL/docs/kit/token_ring\">Token Ring</a> with SRIC cables, make sure they are the right way round.",
+                    "message": "Connect the Servo up to the Token Ring with SRIC cables, make sure they are the right way round.",
                     "askiffixed": true,
                     "nextquestion": "servo-programming"
                 }
