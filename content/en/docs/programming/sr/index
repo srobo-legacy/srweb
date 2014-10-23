@@ -17,7 +17,7 @@ _-30_ would be backwards (depending upon which way you wired up the motor) &mdas
 To gain access to all of this functionality, all you need to do is write:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-from sr import *
+from sr.robot import *
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ...at the top of your code (before you use any of its functionality, basically).
@@ -26,7 +26,7 @@ This imports the Student Robotics module that we've written to interface with ou
 Then, within the `sr` module, there is a `Robot` class that should be instantiated, as follows:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-from sr import *
+from sr.robot import *
 R = Robot()
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -70,7 +70,7 @@ usbkey
 
 :   An example of how the `usbkey` attribute might be used:
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    from sr import *
+    from sr.robot import *
     import os
 
     R = Robot()

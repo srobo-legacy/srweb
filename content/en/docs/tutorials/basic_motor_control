@@ -107,7 +107,7 @@ Doing this is actually very easy; the only thing you need to realise is that a p
 Here's the code:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-from sr import *
+from sr.robot import *
 import time
 
 R = Robot()
@@ -161,7 +161,7 @@ Our aim is to do the forwards and backwards bit (as above), but, before we loop 
 Here's the code:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-from sr import *
+from sr.robot import *
 import time
 
 R = Robot()
