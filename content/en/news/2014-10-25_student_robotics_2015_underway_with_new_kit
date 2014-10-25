@@ -1,0 +1,61 @@
+//TITLE:        Student Robotics 2015 under way with new kit
+//DESCRIPTION:  Student Robotics is under way with a new range of exciting kit and a new game for the new year, 2015.
+//KEYWORDS:     student, smart, autonomous, robotics, kickstart, competition, teams, start, kit 
+//PUB_DATE:     2014-10-26 19:00:00 GMT+01:00
+//CONTENT_TYPE: markdown
+
+
+Student Robotics 2015 under way with new kit
+===========================================
+
+The 2015 Student Robotics competition has started with various [Kickstart](/events/kickstart) events.
+Three Kickstarts were held at the University of Southampton, the University of Bristol and Facebook HQ in London.
+There is also a Kickstart event occuring in Munich soon.
+
+There will be 54 teams competing in this year's Student Robotics competition, coming from across the United Kingdom and Germany. See a map of where all our teams are from this year [here](https://mapsengine.google.com/map/viewer?mid=zvzw_6CVihJs.kM7Ln0NcH6zk).
+
+
+The game: Capture the Flag
+-------------------------------
+
+<img class="right" style="margin-top:-20px;" src="/images/content/arena-2015.png" title="The 2015 arena layout" alt="An image of the 2015 arena layout">
+
+This year's competition is all about retrieving flags from around the arena and putting them into your zone to get points. The flags are built from wooden cubes on ball casters.
+
+Read more about the [new game](/schools/game) or for full details please reference the [rulebook](/resources/2015/rulebook.pdf).
+
+Kit upgrades
+------------
+
+Student Robotics volunteers have worked hard producing a whole range of new kit for Student Robotics 2015.
+These upgrades include:
+
+### Power Board
+
+<img class="right" src="/images/content/kit/pbv4.png" height=300 width=241 title="A new Power Board (version 4)" alt="An image of the Power Board version 4">
+
+This year comes with an all new [Power Board](/docs/kit/power_board) which lets you control up to six external powered components.
+
+### Brain Board
+
+The new [Brain Board](/docs/kit/brain_board) is the [Odroid U3](http://hardkernel.com/main/products/prdt_info.php).
+It's a small but powerful Linux computer with a 1.7GHz Quad Core ARM processor and packs 2GB of RAM.
+These boards are similar to the Raspberry Pi, but are often reported as being between 6 and 12 times more powerful.
+
+
+### Tablets
+There is an all new way of debugging your robot this year, which is through the use of a [tablet](/docs/kit/tablet). The tablets connect to your robot through WiFi and allow you to view logs and start/stop your robot remotely &mdash; without chasing your robot half way around your school! We are even working on letting you view the camera and control individual components.
+
+### Servo Board
+
+<img class="right" src="/images/content/kit/sbv4.png" height=281 width=241 title="A new Servo Board (version 4)" alt="An image of the Servo Board version 4">
+
+The new [Servo Board](/docs/kit/servo_board) lets you control up to 12 servos simultaneously.
+
+### Interconnect
+
+The new inter-board communication system has been upgraded entirely to USB. This makes communication faster, wiring easier, and the kit more robust.
+## Final words
+This year's competition should be an exhilarating event, and all of the Student Robotics volunteers are looking forward to seeing how well the robots compete!
+
+_The Student Robotics team_
