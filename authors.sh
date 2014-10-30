@@ -3,6 +3,7 @@
 git shortlog -sne | 
 # Ignore BRAIN LOG-FEEDS
 	grep -v BRIAN | 
+	grep -v "<bees>" | 
 	grep -v "fail@studentrobotics.org" | 
 	cut -f 2 > AUTHORS
 
