@@ -12,4 +12,5 @@
 /local.config.inc.php
 /community-guidelines
 /tickets
+/mediaconsent
 *.pyc
