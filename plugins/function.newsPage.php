@@ -61,7 +61,7 @@ function _getOutputForPage($p, $base_uri, $root_uri){
 
 		$timestamp = strtotime($content->getMeta('PUB_DATE'));
 
-		$output .= '<div class="newsItem">';
+		$output = '<div class="newsItem">';
 
 		$output .= '<div class="newsDate">' .
 				'<div class="day">' . date('d', $timestamp) . '</div>' .
