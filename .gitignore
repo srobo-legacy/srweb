@@ -11,4 +11,5 @@
 /subscribed_people.csv
 /local.config.inc.php
 /community-guidelines
+/tickets
 *.pyc
