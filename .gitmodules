@@ -1,6 +1,3 @@
-[submodule "community-guidelines"]
-	path = community-guidelines
-	url = ../community-guidelines
 [submodule "tickets"]
 	path = tickets
 	url = ../ticket-access.git
