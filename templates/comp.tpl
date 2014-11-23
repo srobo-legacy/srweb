@@ -7,7 +7,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="keywords" content="{getFromContent get='keywords'}" />
 	<meta name="description" content="{getFromContent get='description'}" />
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/select2/3.4.5/select2.min.css" />
+	<link rel="stylesheet" type="text/css" href="{$root_uri}bower_components/select2/select2.css" />
 	<link rel="stylesheet" type="text/css" href="{$root_uri}css/main.css" />
 	<link rel="stylesheet" type="text/css" href="{$root_uri}css/comp.css" />
 	<link rel="stylesheet" type="text/css" media="print" href="{$root_uri}css/print.css" />
@@ -21,12 +21,12 @@
 	</script>
 
 	<script type="text/javascript" src="{$root_uri}js/competition-utils.js"></script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/select2/3.4.5/select2.min.js"></script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.1/angular.min.js"></script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.1/angular-resource.min.js"></script>
-	<script type="text/javascript" src="{$root_uri}js/lib/angular-storage/ngStorage.min.js"></script>
-	<script type="text/javascript" src="{$root_uri}js/lib/angular-ui-select2/src/select2.js"></script>
+	<script type="text/javascript" src="{$root_uri}bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="{$root_uri}bower_components/select2/dist/select2.min.js"></script>
+	<script type="text/javascript" src="{$root_uri}bower_components/angularjs/angular.min.js"></script>
+	<script type="text/javascript" src="{$root_uri}bower_components/angular-resource/angular-resource.min.js"></script>
+	<script type="text/javascript" src="{$root_uri}bower_components/angular-storage/dist/angular-storage.min.js"></script>
+	<script type="text/javascript" src="{$root_uri}bower_components/angular-ui-select2/src/select2.js"></script>
 	<script type="text/javascript" src="{$root_uri}js/competition-filters.js"></script>
 	<script type="text/javascript" src="{$root_uri}js/competition-resources.js"></script>
 	<script type="text/javascript" src="{$root_uri}js/controllers/{getFromContent get='angular_controller'}.js"></script>
