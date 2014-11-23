@@ -11,3 +11,4 @@
 /subscribed_people.csv
 /local.config.inc.php
 *.pyc
+bower_components

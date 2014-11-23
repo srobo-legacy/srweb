@@ -17,10 +17,10 @@
 	<link rel="alternate" type="application/rss+xml" title="SR RSS" href="{$root_uri}feed.php" />
 	<link rel="shortcut icon" href="{$root_uri}images/template/favicon.ico" />
 
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="{$root_uri}bower_components/jquery/dist/jquery.min.js"></script>
 {if $smarty.const.COMPETITION_MODE}
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.1/angular.min.js"></script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.1/angular-resource.min.js"></script>
+	<script type="text/javascript" src="{$root_uri}bower_components/angularjs/angular.min.js"></script>
+	<script type="text/javascript" src="{$root_uri}bower_components/angular-resource/angular-resource.min.js"></script>
 	<script type="text/javascript">
 		var SRWEB_ROOT = "{$root_uri}";
 		var API_ROOT = "/comp-api";
@@ -31,7 +31,7 @@
 	<script type="text/javascript" src="{$root_uri}js/competition-resources.js"></script>
 	<script type="text/javascript" src="{$root_uri}js/controllers/CompMode.js"></script>
 {else}
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="${root_uri}bower_components/jquery-ui/jquery-ui.min.js"></script>
 
 	{literal}
 	<script type="text/javascript">

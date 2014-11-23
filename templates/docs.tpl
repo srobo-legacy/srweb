@@ -17,9 +17,9 @@
 	{literal}
 
 	<!-- Syntax highlighting using JS -->
-	<script type="text/javascript" src="https://yandex.st/highlightjs/6.1/highlight.min.js"></script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-	<link rel="stylesheet" href="https://yandex.st/highlightjs/6.1/styles/sunburst.min.css" /><!-- stylesheet for syntax highlighting -->
+	<script type="text/javascript" src="{$root_uri}bower_components/highlightjs/highlight.pack.js"></script>
+	<script type="text/javascript" src="{$root_uri}bower_components/jquery/dist/jquery.min.js"></script>
+	<link rel="stylesheet" href="{$root_uri}bower_components/highlightjs/styles/sunburst.css" /><!-- stylesheet for syntax highlighting -->
 
 	<!-- Use jQuery to add a class 'python' to all <code> blocks -->
 	<script type="text/javascript">
