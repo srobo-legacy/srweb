@@ -1,0 +1,106 @@
+---
+title: Welcome to Student Robotics
+layout: main
+description: The root of the site
+extra_css:
+  - home
+itemtype: http://schema.org/WebSite
+---
+{% include organization_meta.html itemprop="about" %}
+<script src="/js/jquery-ui.min.js"></script>
+<script>
+  $(function() {
+    $("#date_tabs").tabs();
+  });
+</script>
+<div id="topBanner">
+  <img src="/images/content/srobo_website_robot.png" alt="Image of Robot">
+  <h1>Welcome to <span itemprop="name">Student Robotics</span></h1>
+  <p itemprop="description">Student Robotics is an exciting annual competition
+   that challenges teams of <span itemprop="typicalAgeRange">16-18</span>
+   year-olds to build fully autonomous robots. Participating teams must
+   design, build and test their robots, ready to compete against other
+   teams.</p>
+</div>
+<div id="latestNews">
+  {% assign post = site.posts.first %}
+  <h2>{{ post.title }}</h2>
+  <p>{{ post.excerpt }} <a href="{{ post.url }}">Read More…</a></p>
+</div>
+<div id="expMenuAndBoxWrapper">
+  <div id="expandedMenu">
+    <h3>Take a Look Around</h3>
+    <ul>
+      <li><a href="/news">News</a></li>
+      <li><a href="/key_dates">Key Dates</a></li>
+      <li>
+        <a href="/schools">About the Competition</a>
+        <ul>
+          <li><a href="/schools/how_to_enter">How to Enter</a></li>
+          <li><a href="/schools/kickstart">Kickstart</a></li>
+          <li><a href="/schools/kit">Kit</a></li>
+          <li><a href="/schools/support">Support</a></li>
+          <li><a href="/schools/team-leaders">Team Leaders</a></li>
+          <li><a href="/schools/tech_days">Tech Days</a></li>
+          <li><a href="/schools/game" title="You Just Lost">The Game</a></li>
+        </ul>
+      </li>
+      <li><a href="/teams">Competing Teams</a></li>
+      <li>
+        <a href="/about">About Us</a>
+        <ul>
+          <li><a href="/about/contactus">Contact Us</a></li>
+          <li><a href="/about/how_to_help">How to Help</a></li>
+          <li><a href="/about/mission">Mission Statement</a></li>
+          <li><a href="/about/sponsors">Sponsors</a></li>
+          <li><a href="/about/committee">The Committee</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div id="boxWrapper">
+    <div class="box">
+      <h3><a href="/about/how_to_help">Want to get involved?</a></h3>
+      <p>Student Robotics is always looking for more people to get
+         involved, and not just schools. Whether you're a University
+         student or a company considering sponsoring the competition,
+         you are more than welcome to get involved.</p>
+    </div>
+    <div class="box">
+      <h3><a href="/key_dates">SR{{ site.sr.year }} Key Dates</a></h3>
+      <div id="date_tabs">
+        <ul>
+          {% for branch in site.sr.branches %}
+          <li><a href="#date_{{branch}}">{{branch}}</a></li>
+          {% endfor %}
+        </ul>
+        {% for branch in site.sr.branches %}
+          <div id="date_{{branch}}">
+            <a href="/events/kickstart">Kickstart:</a>
+            {% events_list kickstart, branch, Not hosted here, false %}
+            <a href="/events/tech_days">Tech Days:</a>
+            {% events_list tech_day, branch, TBA, false %}
+          </div>
+        {% endfor %}
+        <a href="/events/competition">Competition:</a>
+        {% events_list competition, all, April, false %}
+      </div>
+    </div>
+    <div class="box clearboth">
+      <h3><a href="/ide">The IDE</a></h3>
+      <a href="/ide"><img src="/images/template/sr_round_flat.png" alt="SR logo" title="SR logo"></a>
+      <p>The Student Robotics web–based IDE is used by all of the
+         schools &amp; colleges taking part to write programs for their
+         robots. You will need to be registered to use it.</p>
+    </div>
+    <div class="box">
+      <h3><a href="/schools/kit">The Kit</a></h3>
+      <a href="/schools/kit"><img src="/images/template/kit_motor_board.jpg" alt="motor board prototype" title="motor board prototype"></a>
+      <p>Student Robotics design and build a range of easily–programmable
+         boards designed specifically for building robots. The teams
+         receive the kit at Kickstart and have about 7 months to build
+         a competition–winning robot.</p>
+    </div>
+  </div>
+</div>
+

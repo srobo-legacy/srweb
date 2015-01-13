@@ -1,0 +1,17 @@
+---
+layout: site
+extra_css:
+ - docs
+ - highlight
+---
+<div id="docs_index" class="content docs">
+  <div id="docsNav">
+    <ul>
+      {% docs_hierarchical_index /docs %}
+    </ul>
+  </div>
+  <div id="content">
+    {{ content }}
+  </div>
+</div>
+

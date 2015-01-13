@@ -1,0 +1,44 @@
+exclude:
+  - README.md
+  - utils
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - circle.yml
+permalink: pretty
+markdown: kramdown
+
+collections:
+  events:
+    output: true
+    permalink: /events/:name/
+
+paginate: 5
+paginate_path: "news/page:num/"
+
+keep_files:
+  - docs/python          # Python documentation mirror
+  - screens              # SRcomp screens
+  - shepherding          # SRcomp shepherding app
+  - ide                  # Here be dragons
+  - mediaconsent         # MCF generation system
+  - piwik                # User tracking
+  - tickets              # Tickets access system
+  - community-guidelines # SR community guidelines
+
+sr:
+  year: 2015 # which year of SR are we? (the year of the next competition)
+  openings: false # are there open slots for accepting teams for this year?
+  branches:
+    - Southampton
+    - Bristol
+    - Munich
+    - London
+  competition: false # is there a competition live right now?
+
+tracking: false
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-lunr-js-search

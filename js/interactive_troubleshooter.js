@@ -1,5 +1,9 @@
+---
+---
+
 (function() {
-    var data = { };
+    var data = {{ site.data.troubleshooter | to_json }};
+
     var globalRadioName = 0;
 
     function init() {
@@ -27,18 +31,13 @@
         return text;
     }
 
-    function fixLinks(text) {
-        var root = ensureNoTrailingSlash(ROOT_URL);
-        return text.replace(/ROOT_URL/g, root);
-    }
-
     function answerClicked(radioBtn, parent, answer) {
         parent.innerHTML = "";
 
         if ("message" in answer) {
             var newMessage = document.createElement('p');
             newMessage.className = "message";
-            newMessage.innerHTML = fixLinks(answer.message);
+            newMessage.innerHTML = answer.message;
             parent.appendChild(newMessage);
         }
 
@@ -81,7 +80,7 @@
         newQuestionDiv.className = "question";
 
         var questionParagraph = document.createElement("p");
-        questionParagraph.innerHTML = fixLinks(question.question);
+        questionParagraph.innerHTML = question.question;
         newQuestionDiv.appendChild(questionParagraph);
 
         var questionForm = document.createElement("form");
@@ -101,7 +100,7 @@
                 };
 
                 var answerSpan = document.createElement("span");
-                answerSpan.textContent = fixLinks(answer.answer);
+                answerSpan.textContent = answer.answer;
 
                 answerLabel.appendChild(answerRadioBtn);
                 answerLabel.appendChild(answerSpan);
@@ -113,13 +112,5 @@
         parent.appendChild(newQuestionCont);
     }
 
-    jQuery.getJSON(TroubleshooterDataURL)
-    .done(function(json) {
-        data = json;
-        init();
-    })
-    .fail(function(xhr, textStatus, error) {
-        var networkError = document.getElementById("troubleshooter_network_error");
-        networkError.style.display = "block";
-    });
+    init();
 }());
