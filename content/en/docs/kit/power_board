@@ -16,7 +16,7 @@ for the Brain Board.
 It also holds the internal On|Off switch for the whole robot as well as
 the Start button which is used to start your robot code running.
 
-Board Diagram
+[Board Diagram](#BoardDiagram) {#BoardDiagram}
 ----------
 <img src="/images/content/kit/power_board_v4_diagram.png" alt="A diagram of a power board" />
 
