@@ -145,7 +145,7 @@ $ACCEPTED_LANGUAGES = array(
  */
 
 /* The directory 'Smarty.class.php' can be found in */
-default_define('SMARTY_DIR', 		'/usr/share/php/Smarty/');
+default_define('SMARTY_DIR', 		'/usr/share/php/smarty3/');
 
 
 /* The location of files relative to the directory this file is in */

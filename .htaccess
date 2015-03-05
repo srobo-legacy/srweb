@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /
+RewriteBase /~samson/srweb
 
 RewriteCond %{REQUEST_FILENAME}	!-f
 RewriteCond %{REQUEST_URI} 	!^(/community-guidelines(.*))$
