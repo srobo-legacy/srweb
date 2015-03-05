@@ -58,7 +58,7 @@
             ]
         },
         "power-board-switch-check": {
-           "question": "Is the external on|Off switch connected?",
+           "question": "Is the external On|Off switch connected?",
            "answers": [
                {
                    "answer": "Yes",
