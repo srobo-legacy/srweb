@@ -213,19 +213,6 @@ var unspent_matches = function() {
 }();
 
 var process_knockout_round = function() {
-    var describe_match = function(num_in_round, match_num, rounds_after_this) {
-        var description = "Match " + match_num;
-        if (rounds_after_this == 2) {
-            description = "Quarter " + num_in_round + " (#" + match_num + ")";
-        }
-        if (rounds_after_this == 1) {
-            description = "Semi " + num_in_round + " (#" + match_num + ")";
-        }
-        if (rounds_after_this == 0) {
-            description = "Final (#" + match_num + ")";
-        }
-        return description;
-    };
     var build_game = function(info) {
         return {
             "arena": info.arena,
@@ -251,19 +238,20 @@ var process_knockout_round = function() {
 
         return game_groups;
     };
-    return function(round, rounds_after_this) {
+    return function(round) {
 
         var game_groups = group_games(round);
 
         var matches = [];
         for (var i=0; i<game_groups.length; i++) {
             var match_games = game_groups[i];
-            var number, time;
+            var number, description, time;
             var game_details = [];
             for (var j=0; j<match_games.length; j++) {
                 var game = match_games[j];
                 if (j == 0) {
                     number = game.num;
+                    description = game.display_name;
                     time = new Date(game.times.slot.start);
                 }
                 game_details.push(build_game(game));
@@ -271,7 +259,7 @@ var process_knockout_round = function() {
 
             matches.push({
                 'num': number,
-                'description': describe_match(i, number, rounds_after_this),
+                'description': description,
                 'time': time,
                 'games': game_details
             });
@@ -284,8 +272,7 @@ var process_knockouts = function() {
     return function(rounds) {
         var output = [];
         for (var i=0; i<rounds.length; i++) {
-            var rounds_after_this = rounds.length - i - 1;
-            output.push(process_knockout_round(rounds[i], rounds_after_this));
+            output.push(process_knockout_round(rounds[i]));
         }
         return output;
     };
