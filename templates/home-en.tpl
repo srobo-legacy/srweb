@@ -33,6 +33,9 @@
 	<script type="text/javascript" src="{$root_uri}js/controllers/CompMode.js"></script>
 {else}
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="{$root_uri}js/lib/mediaelement-2/mediaelement-and-player.min.js"></script>
+	<script type="text/javascript" src="{$root_uri}/js/home-page-video.js"></script>
+	<link rel="stylesheet" href="{$root_uri}js/lib/mediaelement-2/mediaelementplayer.min.css">
 
 	{literal}
 	<script type="text/javascript">
@@ -180,7 +183,7 @@
 
 			<div id="leaderboard-container" class="info-box">
 				<!-- TODO: maybe move to left so that you read this first
-				  -- this tells you that the TLAs are teams -->
+				   this tells you that the TLAs are teams -->
 				<span class="more-link">
 					<a href="{$root_uri}comp/league">more...</a>
 				</span>
@@ -250,16 +253,22 @@
 	<div class="content">
 
 		<div id="topBanner">
-			<img src="{$root_uri}images/content/srobo_website_robot.png" alt="Image of Robot" />
+			<video width="960" height="540" id="videoPlayer" preload="none" style="display: none">
+				<source type="video/youtube" src="https://www.youtube.com/watch?v=SRgzY5sUYQ8" />
+			</video>
 
-			<h1>Welcome to Student Robotics</h1>
+			<div class="overlayText">
+				<h1>Welcome to Student Robotics</h1>
 
-			<p>Student Robotics is an exciting annual
-			  competition that challenges teams of 16-18
-			  year-olds to build fully autonomous robots.
-			  Participating teams must design, build and
-			  test their robots, ready to compete against
-			  other teams.</p>
+				<p>Student Robotics is an exciting annual
+				  competition that challenges teams of 16-18
+				  year-olds to build fully autonomous robots.
+				  Participating teams must design, build and
+				  test their robots, ready to compete against
+				  other teams.</p>
+
+				<p><a class="playActionLink" href="https://www.youtube.com/watch?v=SRgzY5sUYQ8">Watch video</a></p>
+			</div>
 		</div>
 
 		<div id="latestNews">
