@@ -33,7 +33,7 @@ Find out what the team say about themselves on their [status page](/teams/{{$sto
 **Next match (#{{next_game.num}}) starts in:** {{time_to_next_game}}
 </p>
 
-<table class="upcoming">
+<table class="upcoming" data-ng-show="upcoming_games.length">
     <thead>
         <tr>
             <th>Time  </th>
@@ -44,7 +44,7 @@ Find out what the team say about themselves on their [status page](/teams/{{$sto
         </tr>
     </thead>
     <tbody>
-        <tr data-ng-repeat="game in games|gamesAfterNow:time_offset">
+        <tr data-ng-repeat="game in upcoming_games = (games|gamesAfterNow:time_offset)">
             <td title="Begins at {{game.time|date:'HH:mm:ss on EEEE, d MMMM'}}.">
                 {{game.time|date:'HH:mm:ss'}}
             </td>
@@ -67,6 +67,10 @@ Find out what the team say about themselves on their [status page](/teams/{{$sto
         </tr>
     </tbody>
 </table>
+
+<p data-ng-if="!upcoming_games.length">
+No upcoming matches.
+</p>
 
 </div>
 
