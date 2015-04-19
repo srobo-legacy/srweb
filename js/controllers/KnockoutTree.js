@@ -66,7 +66,10 @@ app.controller("KnockoutTree", function($scope, $log, Arenas, Corners, Current, 
         });
 
         KnockoutMatches.get(function(nodes) {
-            $scope.rounds = process_knockouts(nodes.rounds);
+            Tiebreaker.get(function(tiebreaker) {
+                $scope.rounds = process_knockouts(nodes.rounds,
+                                                  tiebreaker.tiebreaker);
+            });
         });
     });
 });
