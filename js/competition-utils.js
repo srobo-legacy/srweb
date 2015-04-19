@@ -270,11 +270,26 @@ var process_knockout_round = function() {
 }();
 
 var process_knockouts = function() {
-    return function(rounds) {
+    return function(rounds, tiebreaker) {
         var output = [];
         for (var i=0; i<rounds.length; i++) {
             output.push(process_knockout_round(rounds[i]));
         }
+
+        if (tiebreaker) {
+            output.push([
+                {
+                    'num': tiebreaker.num,
+                    'description': tiebreaker.display_name,
+                    'time': new Date(tiebreaker.times.slot.start),
+                    'games': [{
+                        'arena': tiebreaker.arena,
+                        'teams': tiebreaker.teams
+                    }]
+                }
+            ]);
+        }
+
         return output;
     };
 }();
