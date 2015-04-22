@@ -1,0 +1,69 @@
+//TITLE:        $WINNING_TEAM (win|sweep to victory at) Student Robotics 2015
+//DESCRIPTION:  $WINNING_TEAM beat $RUNNERS_UP and $NUM_TEAMS other teams to first place at the UK's only free-to-enter robotics competition.
+//KEYWORDS:     student, smart, autonomous, robotics, final, competition, league, knockout, winners, prizes, awards
+//PUB_DATE:     2015-04-26 19:00:00 GMT+01:00
+//CONTENT_TYPE: markdown
+
+$WINNING_TEAM (win|sweep to victory at) Student Robotics 2015
+=============================================================
+
+[Photo (of winning team?)]
+
+$WINNING_TEAM from $LOCATION (swept to victory|narrowly took the first prize) at this year's Student Robotics tournament, held at Newbury Racecourse. In a (decisive final|close final|tense tiebreaker) their robot $WINNING_ROBOT beat $RUNNERS_UP and $NUM_TEAMS other teams from around the UK and Germany to take first place.
+
+Student Robotics 2015 was the first to feature only new-generation kit, with USB Servo and Power Boards, and a Brain Board based on the ODROID U3. The competition has now been running for eight years, and remains free for teams to enter thanks to [our sponsors](/about/sponsors) and [many volunteers](/about/how_to_help).
+
+The challenge: *Capture the Flag*
+---------------------------------
+
+<img class="right" style="margin-top:-20px;" src="/images/content/arena-2015.png" title="The 2015 arena layout" alt="An image of the 2015 arena layout">
+
+For [this year's game](/schools/game), the competitors had to build and program robots to capture and keep as many flags (large cubes on wheels) as possible within the three-minute games. [Comment on teams' tactics in the games, e.g. "Competition for the only neutral flag, in the centre of the arena, was fierce."]
+
+Full details of the game can be found in the [rulebook][].
+
+Prizes
+------
+
+Winning the knockout is not the only prize-worthy achievement at Student Robotics. A complete list of prizes is shown below.
+
+| Prize                                                    | Team
+|----------------------------------------------------------|-----------------------------------------------
+| 1st Place                                                |
+| 2nd Place                                                |
+| 3rd Place                                                |
+| Committee Award                                          |
+| Rookie Award                                             |
+| First Robot Movement                                     | [Link to the video]
+| Robot and Team Image                                     |
+| Online Presence                                          | [Link to their website]
+
+The *First Movement Award* is given to the first rookie team to demonstrate a moving robot. The *Rookie Award* is for the rookie team who performed best in the knockouts.
+
+The *Committee Award*, given for a simple and elegant solution to the year's challenge, was awarded to $TEAM. [Describe mechanism/tactic.]
+
+The *Online Presence* award is given to the team with the best website, social media presence, or combination of the two.
+
+The *Robot and Team Image* prize is for the team which present themselves and their robot in the most outstanding and stylish manner. [Describe winning team's costumes etc., and include photo.]
+
+For full details of the awards, please see the [rulebook][].
+
+The teams
+---------
+
+[Photo of all competitors (align centre)]
+
+[Comments on the teams, and any 'honourable mentions.]
+
+Student Robotics 2016 promises to be the biggest and best yet. If you'd like to compete, see [the How to Enter page](/schools/how_to_enter) for more information. Start talking to your teachers and recruiting team members as soon as possible!
+
+Media
+-----
+
+High resolution photographs of the event can be found on [the Flickr group](#TODO). For more information, please [get in touch](/about/contactus).
+
+[Photo of all Blueshirts (align centre)]
+
+_The Student Robotics Team_
+
+[rulebook]: /resources/2015/rulebook.pdf
