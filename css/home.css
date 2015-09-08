@@ -180,6 +180,10 @@ div.content div#boxWrapper div.box img {
 	margin-bottom:5px;
 }
 
+div.content div#boxWrapper div.box ul {
+	margin:0;
+}
+
 div.box ul.ui-tabs-nav {
 	list-style: none;
 	padding: 0;
