@@ -1,0 +1,143 @@
+div.content {
+	padding: 0;
+}
+
+section {
+	height: 400px;
+	position: relative;
+	color: #313739;
+}
+
+section#latestNews {
+	height: auto;
+	padding: 0 10px;
+	border-bottom: 1px solid #C0C0C0;
+}
+
+section#latestNews h1 {
+	display: inline-block;
+	color: #666666;
+	margin: 20px 20px 20px 0;
+	padding: 0;
+	vertical-align: middle;
+}
+
+section#latestNews div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+section#latestNews h2 {
+	margin: 0;
+}
+
+section#latestNews p {
+	margin: 0;
+}
+
+section.bar h1, section.bar p {
+	color: inherit;
+}
+
+section.bar h1 {
+	font-size: 32px;
+}
+
+section.bar p {
+	font-size: 20px;
+	line-height: 1.4em;
+	margin: 0 auto;
+}
+
+section.bar p.readmore {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+section.bar#whatis {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.65)), url('../images/template/home/sr2015_group.jpg');
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+section.bar#whatis h1 {
+	text-align: center;
+	line-height: 150px;
+}
+
+section.bar#whatis p {
+	width: 650px;
+}
+
+section.bar#whatis p.readmore {
+	width: 100%;
+	text-align: center;
+}
+
+section.bar#whatis p.readmore a:hover {
+	color: white;
+}
+
+section.bar#season {
+	margin-top: 10px;
+}
+
+section.bar#season h1 {
+	color: #0D1F61;
+}
+
+section.bar#season div.seasonBoxes {
+	margin-top: 20px;
+	text-align: center;
+}
+
+section.bar#season div.seasonBoxes div {
+	padding: 10px;
+	width: 30%;
+	display: inline-block;
+	border-right: 1px solid #666;
+	vertical-align: top;
+	height: 200px;
+	position: relative;
+}
+
+section.bar#season div.seasonBoxes div:last-child {
+	border-right: none;
+}
+
+section.bar#season div.seasonBoxes h2 {
+	margin: 10px 0;
+	text-align: center;
+}
+
+section.bar#season div.seasonBoxes p {
+	margin: 0;
+	text-align: center;
+	font-size: 16px;
+}
+
+section.bar#getinvolved {
+	background-image: linear-gradient(to right, rgba(256, 256, 256, 0.5), rgba(256, 256, 256, 0.8), rgba(256, 256, 256, 0.8)), url('../images/template/home/coloured_boxes.jpg	');
+	background-size: cover;
+	background-position: center;
+	color: #222;
+	padding-left: 550px;
+	padding-right: 20px;
+}
+
+section.bar#getinvolved p {
+	margin-left: 20px;
+}
+
+section.registerInterest {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+}
+
+footer {
+	margin-top: 0;
+}

@@ -77,6 +77,16 @@ if ($page == 'home'){
 	ob_end_flush();
 	exit(0);
 
+} elseif ($page == 'homev2'){
+
+	$file = 'homev2-en';
+
+	$smarty->assign('root_uri', ROOT_URI);
+	$smarty->assign('base_uri', BASE_URI);
+	$smarty->display($file . '.tpl');
+	ob_end_flush();
+	exit(0);
+
 } elseif ($page == 'news/index'){
 
 	$smarty->assign('p', isset($_GET['p']) ? $_GET['p'] : '1');
