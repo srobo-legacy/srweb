@@ -18,14 +18,14 @@ R.power.something...
 
 The power board has a piezo buzzer which can beep.
 
-The beep function accepts 1 or 2 parameters, `duration` is compulsory and is measured in milliseconds. `note` is optional, and can be either a note (one of `['c', 'd', 'e', 'f', 'g', 'a', 'b', 'uc']), or a frequency. 
+The beep function accepts 1 or 2 parameters, `duration` is compulsory and is measured in milliseconds. `note` is optional, but must be one string of `['c', 'd', 'e', 'f', 'g', 'a', 'b', 'uc']. `frequency` is also optional, and should be an integer. One of `note` and `frequency`, must be given. If both are given, `note` is used.
 
 ~~~~~ .python
 # Beep for 0.5s in D.
 R.power.beep(500, note='d')
 
 # Beep for 2s at 400Hz
-R.power.beep(2000, note=400)
+R.power.beep(2000, frequency=400)
 ~~~~~
 
 `ValueError` is raised if the note is not recognised or the frequency is not an integer.
