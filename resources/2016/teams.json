@@ -54,14 +54,14 @@
         "name": "Cedars Upper School",
         "rookie": false
     },
-    "CGA": {
-        "URL": "http://www.clapton.hackney.sch.uk/",
-        "name": "Clapton Girls Academy",
-        "rookie": true
-    },
     "CGS": {
         "URL": "http://www.colstonsgirls.bristol.sch.uk/",
         "name": "Colston's Girls School",
+        "rookie": false
+    },
+    "CHB": {
+        "URL": "http://www.camphillboys.bham.sch.uk/",
+        "name": "King Edward VI Camp Hill School for Boys",
         "rookie": false
     },
     "CHW": {
@@ -87,7 +87,7 @@
     "COR": {
         "URL": "http://www.corsham.wilts.sch.uk/",
         "name": "The Corsham School",
-        "rookie": false
+        "rookie": true
     },
     "CPR": {
         "URL": "http://thecooperschool.co.uk/",
@@ -197,7 +197,7 @@
     "MEA": {
         "URL": "http://merchantsacademy.org/",
         "name": "Merchants' Academy",
-        "rookie": false
+        "rookie": true
     },
     "MFG": {
         "URL": "http://www.themfg.co.uk/",
@@ -237,6 +237,11 @@
     "SWI": {
         "URL": "http://www.swgs.wilts.sch.uk/",
         "name": "South Wilts Grammar School for Girls",
+        "rookie": false
+    },
+    "TBG": {
+        "URL": "http://www.tbgs.co.uk/",
+        "name": "Torquay Boy's Grammar School",
         "rookie": false
     },
     "TLC": {
