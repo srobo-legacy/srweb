@@ -6,9 +6,9 @@
 Motors
 ======
 
-The `motors` object is used to control a collection of motors.
+The `motors` object is used to control a collection of motor boards.
 Similar to `ruggeduinos` and `servos`, `motors` can be used like a list.
-To do something with the **first motor** board, you would use:
+To do something with the **first motor board**, you would use:
 
 ~~~~~ .python
 R.motors[0].something...
@@ -70,7 +70,7 @@ R.motors[0].m1.power = 0
 You can read the current power value for a motor using the same field:
 
 ~~~~~ .python
-# get the current output power of motor 0, channel 0
+# get the current output power of motor board 0, channel 0
 currentTarget = R.motors[0].m0.power
 ~~~~~
 
