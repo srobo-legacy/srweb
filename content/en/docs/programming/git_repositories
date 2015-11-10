@@ -18,9 +18,15 @@ Replace:
  * `TEAMTLA` with the TLA of your team.  (You can find this out by logging into the IDE and looking at the team id displayed at the top)
  * `PROJNAME` with the name of the project that you've already created within the IDE.
 
-When you clone the repository, your client will prompt you for your Student Robotics password.  When you've done some things, go ahead and push your commits back into the repository.  To get your code onto your robot, you will need to use the IDE's export feature as usual.
+You will only be able to see this URL with a git client.  If you're confident with the command line, you can use [git for command line](https://git-scm.com/).
 
-Example
+There's a very nice git command line tutorial [here](https://www.atlassian.com/git/tutorials/saving-changes).
+
+if you decide not to use the command line version of git, there's a wide selection of [graphical git clients](https://git-scm.com/downloads/guis) which will be very easy to use.
+
+When you clone the repository, your client will prompt you for your Student Robotics password.  When you've made some changes to your code, go ahead and push your commits back into the repository.  To get your code onto your robot, you will need to use the IDE's export feature as usual.
+
+Example (for command line git)
 -------
 
 If dave from team SRZ has a project called "armadillo", then one of their team members might clone it like so:
