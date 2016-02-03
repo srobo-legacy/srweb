@@ -11,6 +11,11 @@ Markers are attached to various items in the Student Robotics arena.
 Each marker encodes a number in a machine-readable way, which means that robots can identify these objects.
 For information on which markers codes are which, see the [markers page](/docs/programming/sr/vision/markers).
 
+See the 2016 Token cheatsheet below for a nice representation of the tokens and the arena layout.
+<object data="/resources/2016/net.pdf" type="application/pdf" width="300" height="200">
+<a href="/resources/2016/nets.pdf">test.pdf</a>
+</object>
+
 Using knowledge of the physical size of the different markers and the characteristics of the webcam,
  libkoki can calculate the position of markers in 3D space relative to the camera.
 Therefore, if the robot can see a marker that is at a fixed location in the arena,
