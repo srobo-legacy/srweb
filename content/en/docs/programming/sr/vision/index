@@ -197,6 +197,10 @@ polar
     print "rot_y", p.polar.rot_y
     ~~~~~
 
+In the diagram below consider the z-axis to be the direction the webcam is facing with the y-axis pointing up.
+<img src="/images/content/polar_coords.png" alt="Polar Coordinates" class="right" width="50%" height="50%"/>
+*Example of the polar coordinate system*
+
 [`Orientation`](#Orientation) {#Orientation}
 ---------------
 
