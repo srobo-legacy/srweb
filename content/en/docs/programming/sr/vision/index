@@ -197,6 +197,9 @@ polar
     print "rot_y", p.polar.rot_y
     ~~~~~
 
+<img src="/images/content/polar_coords.png" alt="Polar Coordinates" class="right" />
+*Example of the polar coordinate system*
+
 [`Orientation`](#Orientation) {#Orientation}
 ---------------
 
