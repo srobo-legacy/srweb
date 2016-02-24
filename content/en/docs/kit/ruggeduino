@@ -31,7 +31,9 @@ The Ruggeduino needs only to be connected to the kit over USB as it uses this fo
 
 ## Case Dimensions
 
-The case measures 86✕68✕23mm without the extra pin headers. Don’t forget that the cables will also stick out.
+The case measures 86✕68✕23mm(L✕W✕H) without the extra pin headers.
+The bottom screws add 2mm to the height and the top headers add 6mm to the height and 16mm to the width.
+Don’t forget that the cables will also stick out.
 
 ## Specification
 
