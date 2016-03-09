@@ -103,18 +103,30 @@ x-axis
     Rotation about this axis is equivalent to leaning towards or away from
     the camera.
 
+    Leaning a marker away from the camera increases the value of
+    `marker.orientation.rot_x`, while leaning it towards the camera decreases
+    the value. A value of 0 indicates that the marker is vertically upright.
+
 y-axis
 :   The vertical axis running top-to-bottom in front of the camera.
     Rotation about this axis is equivalent to turning on the spot,
     to the left or right.
 
+    Turning a marker clockwise (as viewed top-down) increases the value of
+    `marker.orientation.rot_y`, while turning it anticlockwise decreases the
+    value. A value of 0 means that the marker is perpendicular to the line of
+    sight of the camera.
+
 z-axis
 :   The axis leading away from the camera to infinity.
     Rotation about this axis is equivalent to being rolled sideways.
 
+    Turning a marker anticlockwise (as viewed from the camera) increases the
+    value of `marker.orientation.rot_z`, while turning it clockwise decreases
+    the value. A value of 0 indicates that the marker is vertically upright.
+
 <!---
 It would be nice to be able to include here what happens to the values:
-* which way is positive, which is negative
  * what about if a marker is upside down but also leant forwards
 * if a marker is seen at a side angle, but is also leant forwards, does
   the value of rot_x measure its lean _towards the camera_ or from its
