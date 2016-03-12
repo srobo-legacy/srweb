@@ -13,5 +13,6 @@
 /community-guidelines
 /tickets
 /ticket-api
+/.tinify-key
 /mediaconsent
 *.pyc
