@@ -5,6 +5,18 @@ if (!ob_start('ob_gzhandler')) ob_start();
 //get user configuration
 require('config.inc.php');
 
+// srweb is now not the source of the main website
+// If a user has arrived at this page (e.g. through
+// typing git.studentrobotics.org into a browser), then they
+// should be redirected to the actual website.
+// Only do this redirection on the actual live site,
+// so that one can still run srweb locally if one wants to
+// for some reason(!)
+if(LIVE_SITE) {
+	header('Location: https://studentrobotics.org');
+	die();
+}
+
 //get smarty code
 require(SMARTY_DIR . '/Smarty.class.php');
 
