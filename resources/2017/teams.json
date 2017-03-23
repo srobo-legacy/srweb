@@ -24,6 +24,11 @@
         "name": "Barton Peveril College",
         "rookie": false
     },
+    "BPV2": {
+        "URL": "http://www.barton-peveril.ac.uk/",
+        "name": "Barton Peveril College",
+        "rookie": false
+    },
     "BRK": {
         "URL": "http://www.brock.ac.uk/",
         "name": "Brockenhurst College",
@@ -51,7 +56,7 @@
     },
     "CGS": {
         "URL": "http://www.colstonsgirls.bristol.sch.uk/",
-        "name": "Colston's Girls School",
+        "name": "Colston's Girls' School",
         "rookie": false
     },
     "CHB": {
@@ -71,7 +76,7 @@
     },
     "CLY": {
         "URL": "http://www.collyers.ac.uk/",
-        "name": "Collyers Sixth Form College",
+        "name": "Collyer's",
         "rookie": false
     },
     "CRB": {
@@ -110,6 +115,11 @@
         "rookie": true
     },
     "GRD": {
+        "URL": "http://www.gordanoschool.org.uk/",
+        "name": "Gordano School",
+        "rookie": false
+    },
+    "GRD2": {
         "URL": "http://www.gordanoschool.org.uk/",
         "name": "Gordano School",
         "rookie": false
@@ -154,11 +164,6 @@
         "name": "King Edward VI School, Southampton",
         "rookie": false
     },
-    "KEV": {
-        "URL": "http://www.king-ed.suffolk.sch.uk/",
-        "name": "King Edward VI School",
-        "rookie": false
-    },
     "LFG": {
         "URL": null,
         "name": "Lion-Feuchtwanger-Gymnasium",
@@ -191,7 +196,7 @@
     },
     "QEH": {
         "URL": "http://www.qehbristol.co.uk/",
-        "name": "Queen Elizabeth's Hospital School",
+        "name": "Queen Elizabeth's Hospital",
         "rookie": false
     },
     "QMC": {
@@ -232,7 +237,7 @@
     "TCS": {
         "URL": null,
         "name": "The Cooper School",
-        "rookie": true
+        "rookie": false
     },
     "TLC": {
         "URL": "http://www.ladiescollege.com/",
@@ -258,10 +263,5 @@
         "URL": null,
         "name": "Westcliff High School for Girls",
         "rookie": false
-    },
-    "YJB": {
-        "URL": null,
-        "name": "Ysgol John Bright",
-        "rookie": true
     }
 }
