@@ -94,11 +94,6 @@
         "name": "Dulwich College",
         "rookie": false
     },
-    "FAL": {
-        "URL": null,
-        "name": "Fallibroome Academy",
-        "rookie": true
-    },
     "FRC": {
         "URL": null,
         "name": "Frome College",
@@ -232,11 +227,6 @@
     "TLC": {
         "URL": "http://www.ladiescollege.com/",
         "name": "The Ladies' College, Guernsey",
-        "rookie": false
-    },
-    "TWG": {
-        "URL": "http://www.twgsb.org.uk/",
-        "name": "Tunbridge Wells Grammar School for Boys",
         "rookie": false
     },
     "WGS": {
