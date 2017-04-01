@@ -34,11 +34,6 @@
         "name": "St Brendan's Sixth Form College",
         "rookie": false
     },
-    "CAR": {
-        "URL": null,
-        "name": "Carshalton College",
-        "rookie": true
-    },
     "CAT": {
         "URL": "http://www.catscollege.com/locations/cambridge.htm",
         "name": "CATS College Cambridge",
